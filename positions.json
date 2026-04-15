@@ -1,0 +1,44 @@
+{
+  "0xf8dee8afce7415675a5cb8db05ab37bfa070a6192e9aa5051394b40839d9ccb8": {
+    "condition_id": "0xf8dee8afce7415675a5cb8db05ab37bfa070a6192e9aa5051394b40839d9ccb8",
+    "question": "Will the price of Bitcoin be above $80,000 on April 21?",
+    "slug": "bitcoin-above-80k-on-april-21",
+    "side": "NO",
+    "token_id": "86852427260684088229509904168771144763313205382550867129756111012135223161403",
+    "fill_price": 0.94,
+    "usdc_size": 2.19,
+    "shares": 2.3298,
+    "entered_at": 1776207081.279215,
+    "resolved": false,
+    "outcome": null,
+    "pnl": null
+  },
+  "0xc6f68e3d5ce9efabbba7123bcceba0316b81e07707390869587a967ad4f87b16": {
+    "condition_id": "0xc6f68e3d5ce9efabbba7123bcceba0316b81e07707390869587a967ad4f87b16",
+    "question": "Will the price of Bitcoin be above $68,000 on April 21?",
+    "slug": "bitcoin-above-68k-on-april-21",
+    "side": "YES",
+    "token_id": "74305928589581463857233862128562927075507410846748252869858427807277915219131",
+    "fill_price": 0.94,
+    "usdc_size": 2.19,
+    "shares": 2.3298,
+    "entered_at": 1776207081.826834,
+    "resolved": false,
+    "outcome": null,
+    "pnl": null
+  },
+  "0xe8d304eb9d23b6383eaf647d99e04aefaff730c280b2eb933c534923ee62899e": {
+    "condition_id": "0xe8d304eb9d23b6383eaf647d99e04aefaff730c280b2eb933c534923ee62899e",
+    "question": "Will NYC have more than 6 inches of precipitation in April?",
+    "slug": "will-nyc-have-more-than-6-inches-of-precipitation-in-april",
+    "side": "NO",
+    "token_id": "52656916955966357222679759449392743818707500494855180164198342076402126515773",
+    "fill_price": 0.944,
+    "usdc_size": 2.19,
+    "shares": 2.3199,
+    "entered_at": 1776207082.5662606,
+    "resolved": false,
+    "outcome": null,
+    "pnl": null
+  }
+}

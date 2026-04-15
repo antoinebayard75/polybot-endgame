@@ -1,0 +1,146 @@
+2026-04-14 18:48:43 [INFO    ] risk: [Bankroll] Seeded from on-chain: $43.85
+2026-04-14 18:48:43 [INFO    ] main: [Main] Starting. Bankroll=$43.85 DRY_RUN=False
+2026-04-14 18:48:43 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-14 18:48:43 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 60s
+2026-04-14 18:48:43 [INFO    ] main: [ScanTrade] Started.
+2026-04-14 18:48:43 [INFO    ] main: [Resolver] Started.
+2026-04-14 18:51:19 [INFO    ] scanner: [Scanner] Scanned 50489 markets → 1112 qualifying (90%–95%)
+2026-04-14 18:51:20 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.940 size=$2.19 (5.0%) conf=96.50% | Will the price of Bitcoin be above $80,000 on April 21?
+2026-04-14 18:51:20 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=86852427260684088229509904168771144763313205382550867129756111012135223161403 "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=86852427260684088229509904168771144763313205382550867129756111012135223161403 "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=86852427260684088229509904168771144763313205382550867129756111012135223161403 "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] trader: [Trader][LIVE] Order placed: 8685242726… price=0.9400 shares=2.3298 usdc=$2.19 | {'errorMsg': '', 'orderID': '0x2ac878e0d0e75d3284c50282192ea93090dd14472c083a892a477441c5e363e7', 'takingAmount': '2.32', 'makingAmount': '2.1808', 'status': 'matched', 'transactionsHashes': ['0xecc170b657c5c53da82b71d3cd1c5072b1379694b501836052029167442bf761'], 'success': True}
+2026-04-14 18:51:21 [INFO    ] positions: [Positions] Recorded entry: Will the price of Bitcoin be above $80,000 on April 21? [NO@0.940] $2.19
+2026-04-14 18:51:21 [INFO    ] main: [ScanTrade] Entered: Will the price of Bitcoin be above $80,000 on April 21? [NO@0.930] $2.19 | 161.2h to close
+2026-04-14 18:51:21 [INFO    ] notify: [LIVE] ENTER | side=YES price=0.940 size=$2.19 (5.0%) conf=96.50% | Will the price of Bitcoin be above $68,000 on April 21?
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=74305928589581463857233862128562927075507410846748252869858427807277915219131 "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=74305928589581463857233862128562927075507410846748252869858427807277915219131 "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=74305928589581463857233862128562927075507410846748252869858427807277915219131 "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-14 18:51:21 [INFO    ] trader: [Trader][LIVE] Order placed: 7430592858… price=0.9400 shares=2.3298 usdc=$2.19 | {'errorMsg': '', 'orderID': '0x82739be2d111e11eb7ef7a9b0185e84a9b362938a9f229bf57b333a1ea2651e1', 'takingAmount': '2.32', 'makingAmount': '2.1808', 'status': 'matched', 'transactionsHashes': ['0xf07f0207654b2a4bb604554708f8bf080e37dd267069506ee8defd2cdfce2ad1'], 'success': True}
+2026-04-14 18:51:21 [INFO    ] positions: [Positions] Recorded entry: Will the price of Bitcoin be above $68,000 on April 21? [YES@0.940] $2.19
+2026-04-14 18:51:21 [INFO    ] main: [ScanTrade] Entered: Will the price of Bitcoin be above $68,000 on April 21? [YES@0.935] $2.19 | 161.2h to close
+2026-04-14 18:51:21 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.944 size=$2.19 (5.0%) conf=96.90% | Will NYC have more than 6 inches of precipitation in April?
+2026-04-14 18:51:22 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=52656916955966357222679759449392743818707500494855180164198342076402126515773 "HTTP/2 200 OK"
+2026-04-14 18:51:22 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=52656916955966357222679759449392743818707500494855180164198342076402126515773 "HTTP/2 200 OK"
+2026-04-14 18:51:22 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=52656916955966357222679759449392743818707500494855180164198342076402126515773 "HTTP/2 200 OK"
+2026-04-14 18:51:22 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-14 18:51:22 [INFO    ] trader: [Trader][LIVE] Order placed: 5265691695… price=0.9440 shares=2.3199 usdc=$2.19 | {'errorMsg': '', 'orderID': '0xd238df3e5bd02b198d8388736cdba34137a15f2a9392ddfa70f1b0e24bda3ba4', 'takingAmount': '2.31', 'makingAmount': '2.18064', 'status': 'matched', 'transactionsHashes': ['0xfdbe0fc41a5baa759a74f4e5e4eb2fa5df86f7ccb3c72b02ddddda786fbdf441'], 'success': True}
+2026-04-14 18:51:22 [INFO    ] positions: [Positions] Recorded entry: Will NYC have more than 6 inches of precipitation in April? [NO@0.944] $2.19
+2026-04-14 18:51:22 [INFO    ] main: [ScanTrade] Entered: Will NYC have more than 6 inches of precipitation in April? [NO@0.932] $2.19 | 361.2h to close
+2026-04-14 18:53:28 [INFO    ] scanner: [Scanner] Scanned 50489 markets → 1118 qualifying (90%–95%)
+2026-04-14 18:56:57 [INFO    ] scanner: [Scanner] Scanned 50520 markets → 1136 qualifying (90%–95%)
+2026-04-14 18:58:55 [INFO    ] scanner: [Scanner] Scanned 50520 markets → 1121 qualifying (90%–95%)
+2026-04-14 19:02:30 [INFO    ] scanner: [Scanner] Scanned 50564 markets → 1090 qualifying (90%–95%)
+2026-04-14 19:04:33 [INFO    ] scanner: [Scanner] Scanned 50564 markets → 1107 qualifying (90%–95%)
+2026-04-14 19:08:00 [INFO    ] scanner: [Scanner] Scanned 50627 markets → 1127 qualifying (90%–95%)
+2026-04-14 19:09:57 [INFO    ] scanner: [Scanner] Scanned 50627 markets → 1118 qualifying (90%–95%)
+2026-04-14 19:13:24 [INFO    ] scanner: [Scanner] Scanned 50687 markets → 1115 qualifying (90%–95%)
+2026-04-14 19:15:33 [INFO    ] scanner: [Scanner] Scanned 50687 markets → 1114 qualifying (90%–95%)
+2026-04-14 19:19:05 [INFO    ] scanner: [Scanner] Scanned 50723 markets → 1109 qualifying (90%–95%)
+2026-04-14 19:21:21 [INFO    ] scanner: [Scanner] Scanned 50723 markets → 1112 qualifying (90%–95%)
+2026-04-14 19:24:47 [INFO    ] scanner: [Scanner] Scanned 50760 markets → 1112 qualifying (90%–95%)
+2026-04-14 19:27:01 [INFO    ] scanner: [Scanner] Scanned 50760 markets → 1088 qualifying (90%–95%)
+2026-04-14 19:30:07 [INFO    ] scanner: [Scanner] Scanned 50779 markets → 1002 qualifying (90%–95%)
+2026-04-14 19:32:09 [INFO    ] scanner: [Scanner] Scanned 50779 markets → 1013 qualifying (90%–95%)
+2026-04-14 19:35:39 [INFO    ] scanner: [Scanner] Scanned 50788 markets → 1024 qualifying (90%–95%)
+2026-04-14 19:37:39 [INFO    ] scanner: [Scanner] Scanned 50788 markets → 1035 qualifying (90%–95%)
+2026-04-14 19:41:04 [INFO    ] scanner: [Scanner] Scanned 50865 markets → 1058 qualifying (90%–95%)
+2026-04-14 19:43:08 [INFO    ] scanner: [Scanner] Scanned 50865 markets → 1053 qualifying (90%–95%)
+2026-04-14 19:46:37 [INFO    ] scanner: [Scanner] Scanned 50939 markets → 1056 qualifying (90%–95%)
+2026-04-14 19:48:43 [INFO    ] main: [Heartbeat] Bankroll=$37.28 | Open=3 | Trades=0 W=0 L=0 PnL=$+0.00 WR=0.0%
+2026-04-14 19:48:47 [INFO    ] scanner: [Scanner] Scanned 50939 markets → 1063 qualifying (90%–95%)
+2026-04-14 19:52:15 [INFO    ] scanner: [Scanner] Scanned 50907 markets → 1055 qualifying (90%–95%)
+2026-04-14 19:54:26 [INFO    ] scanner: [Scanner] Scanned 50907 markets → 1038 qualifying (90%–95%)
+2026-04-14 19:58:08 [INFO    ] scanner: [Scanner] Scanned 50968 markets → 1017 qualifying (90%–95%)
+2026-04-14 20:00:10 [INFO    ] scanner: [Scanner] Scanned 50968 markets → 1014 qualifying (90%–95%)
+2026-04-14 20:03:42 [INFO    ] scanner: [Scanner] Scanned 50908 markets → 1020 qualifying (90%–95%)
+2026-04-14 20:05:41 [INFO    ] scanner: [Scanner] Scanned 50908 markets → 1023 qualifying (90%–95%)
+2026-04-14 20:09:15 [INFO    ] scanner: [Scanner] Scanned 50928 markets → 1057 qualifying (90%–95%)
+2026-04-14 20:11:14 [INFO    ] scanner: [Scanner] Scanned 50928 markets → 1053 qualifying (90%–95%)
+2026-04-14 20:14:45 [INFO    ] scanner: [Scanner] Scanned 50882 markets → 1045 qualifying (90%–95%)
+2026-04-14 20:16:53 [INFO    ] scanner: [Scanner] Scanned 50882 markets → 1041 qualifying (90%–95%)
+2026-04-14 20:20:25 [INFO    ] scanner: [Scanner] Scanned 50866 markets → 1020 qualifying (90%–95%)
+2026-04-14 20:22:23 [INFO    ] scanner: [Scanner] Scanned 50866 markets → 1029 qualifying (90%–95%)
+2026-04-14 20:25:51 [INFO    ] scanner: [Scanner] Scanned 50845 markets → 1016 qualifying (90%–95%)
+2026-04-14 20:27:56 [INFO    ] scanner: [Scanner] Scanned 50845 markets → 997 qualifying (90%–95%)
+2026-04-14 20:31:27 [INFO    ] scanner: [Scanner] Scanned 50799 markets → 1016 qualifying (90%–95%)
+2026-04-14 20:33:39 [INFO    ] scanner: [Scanner] Scanned 50799 markets → 1019 qualifying (90%–95%)
+2026-04-14 20:37:08 [INFO    ] scanner: [Scanner] Scanned 50743 markets → 1012 qualifying (90%–95%)
+2026-04-14 20:39:11 [INFO    ] scanner: [Scanner] Scanned 50743 markets → 1010 qualifying (90%–95%)
+2026-04-14 20:42:56 [INFO    ] scanner: [Scanner] Scanned 50712 markets → 1016 qualifying (90%–95%)
+2026-04-14 20:44:51 [INFO    ] scanner: [Scanner] Scanned 50712 markets → 1032 qualifying (90%–95%)
+2026-04-14 20:48:19 [INFO    ] scanner: [Scanner] Scanned 50684 markets → 1030 qualifying (90%–95%)
+2026-04-14 20:48:43 [INFO    ] main: [Heartbeat] Bankroll=$37.28 | Open=3 | Trades=0 W=0 L=0 PnL=$+0.00 WR=0.0%
+2026-04-14 20:50:13 [INFO    ] scanner: [Scanner] Scanned 50684 markets → 1038 qualifying (90%–95%)
+2026-04-14 20:53:40 [INFO    ] scanner: [Scanner] Scanned 50686 markets → 1025 qualifying (90%–95%)
+2026-04-14 20:55:51 [INFO    ] scanner: [Scanner] Scanned 50686 markets → 1004 qualifying (90%–95%)
+2026-04-14 20:59:17 [INFO    ] scanner: [Scanner] Scanned 50661 markets → 1019 qualifying (90%–95%)
+2026-04-14 21:01:19 [INFO    ] scanner: [Scanner] Scanned 50661 markets → 1008 qualifying (90%–95%)
+2026-04-14 21:05:02 [INFO    ] scanner: [Scanner] Scanned 50637 markets → 953 qualifying (90%–95%)
+2026-04-14 21:07:06 [INFO    ] scanner: [Scanner] Scanned 50637 markets → 1014 qualifying (90%–95%)
+2026-04-14 21:10:36 [INFO    ] scanner: [Scanner] Scanned 50610 markets → 1011 qualifying (90%–95%)
+2026-04-14 21:12:35 [INFO    ] scanner: [Scanner] Scanned 50610 markets → 997 qualifying (90%–95%)
+2026-04-14 21:16:23 [INFO    ] scanner: [Scanner] Scanned 50741 markets → 1014 qualifying (90%–95%)
+2026-04-14 21:18:31 [INFO    ] scanner: [Scanner] Scanned 50741 markets → 1007 qualifying (90%–95%)
+2026-04-14 21:21:59 [INFO    ] scanner: [Scanner] Scanned 50685 markets → 1029 qualifying (90%–95%)
+2026-04-14 21:24:09 [INFO    ] scanner: [Scanner] Scanned 50685 markets → 1020 qualifying (90%–95%)
+2026-04-14 21:27:46 [INFO    ] scanner: [Scanner] Scanned 50679 markets → 1026 qualifying (90%–95%)
+2026-04-14 21:29:50 [INFO    ] scanner: [Scanner] Scanned 50679 markets → 979 qualifying (90%–95%)
+2026-04-14 21:33:17 [INFO    ] scanner: [Scanner] Scanned 50657 markets → 980 qualifying (90%–95%)
+2026-04-14 21:35:33 [INFO    ] scanner: [Scanner] Scanned 50657 markets → 1008 qualifying (90%–95%)
+2026-04-14 21:39:12 [INFO    ] scanner: [Scanner] Scanned 50659 markets → 985 qualifying (90%–95%)
+2026-04-14 21:41:13 [INFO    ] scanner: [Scanner] Scanned 50659 markets → 1004 qualifying (90%–95%)
+2026-04-14 21:43:11 [ERROR   ] scanner: [Scanner] Unexpected error: 
+2026-04-14 21:43:11 [INFO    ] scanner: [Scanner] Scanned 20900 markets → 554 qualifying (90%–95%)
+2026-04-14 21:45:44 [INFO    ] scanner: [Scanner] Scanned 50636 markets → 984 qualifying (90%–95%)
+2026-04-14 21:47:55 [INFO    ] scanner: [Scanner] Scanned 50636 markets → 964 qualifying (90%–95%)
+2026-04-14 21:48:43 [INFO    ] main: [Heartbeat] Bankroll=$37.28 | Open=3 | Trades=0 W=0 L=0 PnL=$+0.00 WR=0.0%
+2026-04-14 21:51:27 [INFO    ] scanner: [Scanner] Scanned 50620 markets → 992 qualifying (90%–95%)
+2026-04-14 21:53:37 [INFO    ] scanner: [Scanner] Scanned 50620 markets → 1001 qualifying (90%–95%)
+2026-04-14 21:57:13 [INFO    ] scanner: [Scanner] Scanned 50636 markets → 988 qualifying (90%–95%)
+2026-04-14 21:59:13 [INFO    ] scanner: [Scanner] Scanned 50636 markets → 986 qualifying (90%–95%)
+2026-04-14 22:02:50 [INFO    ] scanner: [Scanner] Scanned 50614 markets → 992 qualifying (90%–95%)
+2026-04-14 22:04:46 [INFO    ] scanner: [Scanner] Scanned 50614 markets → 1019 qualifying (90%–95%)
+2026-04-14 22:08:02 [INFO    ] scanner: [Scanner] Scanned 50595 markets → 1017 qualifying (90%–95%)
+2026-04-14 22:10:08 [INFO    ] scanner: [Scanner] Scanned 50595 markets → 1010 qualifying (90%–95%)
+2026-04-14 22:13:27 [INFO    ] scanner: [Scanner] Scanned 50573 markets → 990 qualifying (90%–95%)
+2026-04-14 22:15:23 [INFO    ] scanner: [Scanner] Scanned 50573 markets → 1014 qualifying (90%–95%)
+2026-04-14 22:18:43 [INFO    ] scanner: [Scanner] Scanned 50557 markets → 1001 qualifying (90%–95%)
+2026-04-14 22:20:41 [INFO    ] scanner: [Scanner] Scanned 50557 markets → 987 qualifying (90%–95%)
+2026-04-14 22:24:05 [INFO    ] scanner: [Scanner] Scanned 50543 markets → 1010 qualifying (90%–95%)
+2026-04-14 22:26:05 [INFO    ] scanner: [Scanner] Scanned 50543 markets → 1003 qualifying (90%–95%)
+2026-04-14 22:29:26 [INFO    ] scanner: [Scanner] Scanned 50518 markets → 1004 qualifying (90%–95%)
+2026-04-14 22:31:24 [INFO    ] scanner: [Scanner] Scanned 50518 markets → 1019 qualifying (90%–95%)
+2026-04-14 22:34:44 [INFO    ] scanner: [Scanner] Scanned 50474 markets → 1013 qualifying (90%–95%)
+2026-04-14 22:36:44 [INFO    ] scanner: [Scanner] Scanned 50474 markets → 994 qualifying (90%–95%)
+2026-04-14 22:40:03 [INFO    ] scanner: [Scanner] Scanned 50466 markets → 986 qualifying (90%–95%)
+2026-04-14 22:42:02 [INFO    ] scanner: [Scanner] Scanned 50466 markets → 1022 qualifying (90%–95%)
+2026-04-14 22:45:23 [INFO    ] scanner: [Scanner] Scanned 50440 markets → 1038 qualifying (90%–95%)
+2026-04-14 22:47:21 [INFO    ] scanner: [Scanner] Scanned 50440 markets → 1023 qualifying (90%–95%)
+2026-04-14 22:48:42 [INFO    ] main: [Heartbeat] Bankroll=$37.28 | Open=3 | Trades=0 W=0 L=0 PnL=$+0.00 WR=0.0%
+2026-04-15 10:25:55 [INFO    ] risk: [Bankroll] Loaded from file: $37.28
+2026-04-15 10:25:55 [INFO    ] main: [Main] Starting. Bankroll=$37.28 DRY_RUN=False
+2026-04-15 10:25:55 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 10:25:55 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 60s
+2026-04-15 10:25:57 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 10:25:57 [INFO    ] main: [Resolver] Started.
+2026-04-15 10:29:20 [INFO    ] scanner: [Scanner] Scanned 49941 markets → 943 qualifying (90%–95%)
+2026-04-15 10:31:38 [INFO    ] scanner: [Scanner] Scanned 49941 markets → 932 qualifying (90%–95%)
+2026-04-15 10:33:48 [INFO    ] risk: [Bankroll] Loaded from file: $37.28
+2026-04-15 10:33:48 [INFO    ] main: [Main] Starting. Bankroll=$37.28 DRY_RUN=False
+2026-04-15 10:33:48 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 10:33:48 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 60s
+2026-04-15 10:33:50 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 10:33:50 [INFO    ] main: [Resolver] Started.
+2026-04-15 10:35:44 [INFO    ] scanner: [Scanner] Scanned 49914 markets → 942 qualifying (90%–95%)
+2026-04-15 10:37:43 [INFO    ] scanner: [Scanner] Scanned 49914 markets → 964 qualifying (90%–95%)
+2026-04-15 10:38:17 [INFO    ] risk: [Bankroll] Loaded from file: $37.28
+2026-04-15 10:38:17 [INFO    ] main: [Main] Starting. Bankroll=$37.28 DRY_RUN=False
+2026-04-15 10:38:17 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 10:38:17 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-15 10:38:19 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 10:38:19 [INFO    ] main: [Resolver] Started.
+2026-04-15 10:41:15 [INFO    ] scanner: [Scanner] Scanned 49973 markets → 951 qualifying (90%–95%)
+2026-04-15 10:42:31 [INFO    ] scanner: [Scanner] Scanned 49973 markets → 942 qualifying (90%–95%)

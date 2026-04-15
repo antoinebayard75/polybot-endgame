@@ -1,0 +1,14 @@
+# Polymarket certainty-band bot – Python dependencies
+
+# Polymarket CLOB SDK (place orders, manage positions)
+py-clob-client>=0.19.0
+
+# Async HTTP client
+aiohttp>=3.9.5
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Cryptographic / blockchain helpers (pulled by py-clob-client, pinned explicitly)
+eth-account>=0.11.0
+web3>=6.20.0
