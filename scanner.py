@@ -108,7 +108,7 @@ def _qualify_market(market: dict) -> Optional[Opportunity]:
     seconds_to_close = (end_date - now_utc).total_seconds()
 
     min_sec = cfg.min_hours_to_close * 3600
-    max_sec = cfg.max_days_to_close * 86400
+    max_sec = cfg.max_hours_to_close * 3600
     if not (min_sec <= seconds_to_close <= max_sec):
         return None
 

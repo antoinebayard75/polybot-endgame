@@ -77,10 +77,10 @@ class Config:
     min_liquidity_usdc: float = field(default_factory=lambda: _float("MIN_LIQUIDITY_USDC", 500.0))
     # Maximum spread allowed (bid-ask gap on the token we buy)
     max_spread: float = field(default_factory=lambda: _float("MAX_SPREAD", 0.03))
-    # Skip markets closing in less than this many hours (too little time left)
-    min_hours_to_close: float = field(default_factory=lambda: _float("MIN_HOURS_TO_CLOSE", 1.0))
-    # Skip markets with more than this many days to close (too far out, illiquid)
-    max_days_to_close: float = field(default_factory=lambda: _float("MAX_DAYS_TO_CLOSE", 30.0))
+    # Skip markets closing in less than this many hours
+    min_hours_to_close: float = field(default_factory=lambda: _float("MIN_HOURS_TO_CLOSE", 0.0))
+    # Skip markets closing in more than this many hours (targets short-expiry markets)
+    max_hours_to_close: float = field(default_factory=lambda: _float("MAX_HOURS_TO_CLOSE", 0.5))
 
     # ── Polymarket endpoints ───────────────────────────────────────
     clob_api_url: str  = "https://clob.polymarket.com"

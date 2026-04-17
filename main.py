@@ -96,6 +96,7 @@ async def _scan_cycle(
             break
 
         if already_entered(opp.condition_id):
+            log.info(f"[ScanTrade] SKIP (déjà en position) {opp.question[:60]}")
             continue
 
         await _try_enter(opp, clob_session, clob_client, current_bankroll)
@@ -113,7 +114,7 @@ async def _try_enter(
     # Verify live spread before committing
     live_ask = await check_live_spread(clob_session, opp)
     if live_ask is None:
-        log.debug(f"[ScanTrade] Spread check failed: {opp.label}")
+        log.info(f"[ScanTrade] SKIP (spread/book) {opp.label}")
         return
 
     # Use live ask as fill price (slightly different from Gamma mid)
@@ -121,15 +122,15 @@ async def _try_enter(
 
     # Re-check price is still in our band after live book check
     if not (cfg.cert_lo <= fill_price <= cfg.cert_hi):
-        log.debug(
-            f"[ScanTrade] Live ask {fill_price:.3f} outside band for {opp.question[:50]}"
+        log.info(
+            f"[ScanTrade] SKIP (live ask {fill_price:.3f} hors bande) {opp.question[:50]}"
         )
         return
 
     # Size
     usdc = kelly_size(current_bankroll, fill_price)
     if usdc < cfg.min_order_usdc:
-        log.debug(f"[ScanTrade] Kelly size ${usdc:.2f} < minimum, skipping.")
+        log.info(f"[ScanTrade] SKIP (Kelly ${usdc:.2f} < min ${cfg.min_order_usdc}) {opp.question[:50]}")
         return
 
     shares = round(usdc / fill_price, 4)
@@ -169,7 +170,7 @@ async def _try_enter(
 
     log.info(
         f"[ScanTrade] Entered: {opp.label} "
-        f"${usdc:.2f} | {opp.seconds_to_close/3600:.1f}h to close"
+        f"${usdc:.2f} | {opp.seconds_to_close/60:.0f}min to close"
     )
 
 

@@ -144,3 +144,637 @@
 2026-04-15 10:38:19 [INFO    ] main: [Resolver] Started.
 2026-04-15 10:41:15 [INFO    ] scanner: [Scanner] Scanned 49973 markets → 951 qualifying (90%–95%)
 2026-04-15 10:42:31 [INFO    ] scanner: [Scanner] Scanned 49973 markets → 942 qualifying (90%–95%)
+2026-04-15 10:43:38 [INFO    ] scanner: [Scanner] Scanned 49973 markets → 946 qualifying (90%–95%)
+2026-04-15 10:46:30 [INFO    ] scanner: [Scanner] Scanned 49960 markets → 976 qualifying (90%–95%)
+2026-04-15 10:47:54 [INFO    ] scanner: [Scanner] Scanned 49960 markets → 958 qualifying (90%–95%)
+2026-04-15 10:49:06 [INFO    ] scanner: [Scanner] Scanned 49960 markets → 955 qualifying (90%–95%)
+2026-04-15 10:49:37 [INFO    ] risk: [Bankroll] Loaded from file: $37.28
+2026-04-15 10:49:37 [INFO    ] main: [Main] Starting. Bankroll=$37.28 DRY_RUN=False
+2026-04-15 10:49:37 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 10:49:37 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-15 10:49:38 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 10:49:38 [INFO    ] main: [Resolver] Started.
+2026-04-15 10:52:19 [INFO    ] scanner: [Scanner] Scanned 49932 markets → 3 qualifying (90%–95%)
+2026-04-15 10:53:35 [INFO    ] scanner: [Scanner] Scanned 49932 markets → 3 qualifying (90%–95%)
+2026-04-15 10:54:40 [INFO    ] scanner: [Scanner] Scanned 49932 markets → 4 qualifying (90%–95%)
+2026-04-15 10:57:46 [INFO    ] scanner: [Scanner] Scanned 49918 markets → 2 qualifying (90%–95%)
+2026-04-15 10:58:50 [INFO    ] scanner: [Scanner] Scanned 49918 markets → 2 qualifying (90%–95%)
+2026-04-15 10:59:59 [INFO    ] scanner: [Scanner] Scanned 49918 markets → 4 qualifying (90%–95%)
+2026-04-15 11:00:59 [INFO    ] risk: [Bankroll] Loaded from file: $37.28
+2026-04-15 11:00:59 [INFO    ] main: [Main] Starting. Bankroll=$37.28 DRY_RUN=False
+2026-04-15 11:00:59 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 11:00:59 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-15 11:01:00 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 11:01:00 [INFO    ] main: [Resolver] Started.
+2026-04-15 11:03:24 [INFO    ] scanner: [Scanner] Scanned 49898 markets → 5 qualifying (90%–95%)
+2026-04-15 11:03:24 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.910 size=$1.86 (5.0%) conf=93.50% | Ethereum Up or Down on April 15?
+2026-04-15 11:03:25 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=38942635256527723777388536856800889005570428151761320221981752534420906298320 "HTTP/2 200 OK"
+2026-04-15 11:03:25 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=38942635256527723777388536856800889005570428151761320221981752534420906298320 "HTTP/2 200 OK"
+2026-04-15 11:03:25 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=38942635256527723777388536856800889005570428151761320221981752534420906298320 "HTTP/2 200 OK"
+2026-04-15 11:03:25 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 11:03:25 [INFO    ] trader: [Trader][LIVE] Order placed: 3894263525… price=0.9100 shares=2.0440 usdc=$1.86 | {'errorMsg': '', 'orderID': '0x7ae7eb6b72be0fa0bf92e8e706952c0ca1c7b9e61df2bdc6986141abe23d7ea7', 'takingAmount': '2.04', 'makingAmount': '1.8564', 'status': 'matched', 'transactionsHashes': ['0x4a15f535195f3a65f5a4dd92c863a80824618c9c0fa91eeeb9d89f9afaaa47c2'], 'success': True}
+2026-04-15 11:03:25 [INFO    ] positions: [Positions] Recorded entry: Ethereum Up or Down on April 15? [NO@0.910] $1.86
+2026-04-15 11:03:25 [INFO    ] main: [ScanTrade] Entered: Ethereum Up or Down on April 15? [NO@0.935] $1.86 | 1.0h to close
+2026-04-15 11:04:31 [INFO    ] scanner: [Scanner] Scanned 49898 markets → 5 qualifying (90%–95%)
+2026-04-15 11:05:33 [INFO    ] scanner: [Scanner] Scanned 49898 markets → 3 qualifying (90%–95%)
+2026-04-15 11:08:33 [INFO    ] scanner: [Scanner] Scanned 49895 markets → 4 qualifying (90%–95%)
+2026-04-15 11:09:38 [INFO    ] scanner: [Scanner] Scanned 49895 markets → 4 qualifying (90%–95%)
+2026-04-15 11:10:41 [INFO    ] scanner: [Scanner] Scanned 49895 markets → 4 qualifying (90%–95%)
+2026-04-15 11:11:11 [INFO    ] risk: [Bankroll] Loaded from file: $35.42
+2026-04-15 11:11:11 [INFO    ] main: [Main] Starting. Bankroll=$35.42 DRY_RUN=False
+2026-04-15 11:11:11 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 11:11:11 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-15 11:11:12 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 11:11:12 [INFO    ] main: [Resolver] Started.
+2026-04-15 11:13:49 [INFO    ] scanner: [Scanner] Scanned 49876 markets → 3 qualifying (90%–95%)
+2026-04-15 11:13:50 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:13:50 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.915 size=$1.77 (5.0%) conf=94.00% | Will Elon Musk post 65-89 tweets from April 13 to April 15, 2026?
+2026-04-15 11:13:50 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=113153937750190918355455646258487646414664114441644772550908507388527627374326 "HTTP/2 200 OK"
+2026-04-15 11:13:50 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=113153937750190918355455646258487646414664114441644772550908507388527627374326 "HTTP/2 200 OK"
+2026-04-15 11:13:50 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=113153937750190918355455646258487646414664114441644772550908507388527627374326 "HTTP/2 200 OK"
+2026-04-15 11:13:50 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 11:13:50 [INFO    ] trader: [Trader][LIVE] Order placed: 1131539377… price=0.9150 shares=1.9344 usdc=$1.77 | {'errorMsg': '', 'orderID': '0x2ef9a48bc70c53df60a4d03ca6ac4f283a643be8adb86d05844cb44fd8833706', 'takingAmount': '1.93', 'makingAmount': '1.76595', 'status': 'matched', 'transactionsHashes': ['0x0d4f32af7e88e12b0c0735213b2681274fa4f8407ffe139369b3e57b7694dc09'], 'success': True}
+2026-04-15 11:13:50 [INFO    ] positions: [Positions] Recorded entry: Will Elon Musk post 65-89 tweets from April 13 to April 15,  [NO@0.915] $1.77
+2026-04-15 11:13:50 [INFO    ] main: [ScanTrade] Entered: Will Elon Musk post 65-89 tweets from April 13 to April 15,  [NO@0.911] $1.77 | 0.8h to close
+2026-04-15 11:13:50 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:14:54 [INFO    ] scanner: [Scanner] Scanned 49876 markets → 3 qualifying (90%–95%)
+2026-04-15 11:14:54 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:14:54 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:14:54 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:16:02 [INFO    ] scanner: [Scanner] Scanned 49876 markets → 3 qualifying (90%–95%)
+2026-04-15 11:16:02 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:16:02 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:16:02 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:19:14 [INFO    ] scanner: [Scanner] Scanned 49852 markets → 2 qualifying (90%–95%)
+2026-04-15 11:19:14 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:19:14 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:20:21 [INFO    ] scanner: [Scanner] Scanned 49852 markets → 2 qualifying (90%–95%)
+2026-04-15 11:20:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:20:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:21:24 [INFO    ] scanner: [Scanner] Scanned 49852 markets → 2 qualifying (90%–95%)
+2026-04-15 11:21:24 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:21:24 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:24:32 [INFO    ] scanner: [Scanner] Scanned 49850 markets → 5 qualifying (90%–95%)
+2026-04-15 11:24:32 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:24:32 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:24:32 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down on April 15?
+2026-04-15 11:24:33 [INFO    ] main: [ScanTrade] SKIP (live ask 0.980 hors bande) Bitcoin Up or Down - April 15, 11:15AM-11:30AM ET
+2026-04-15 11:24:33 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:25:39 [INFO    ] scanner: [Scanner] Scanned 49850 markets → 7 qualifying (90%–95%)
+2026-04-15 11:25:39 [INFO    ] main: [ScanTrade] SKIP (live ask 0.990 hors bande) Ethereum Up or Down - April 15, 11:15AM-11:30AM ET
+2026-04-15 11:25:39 [INFO    ] notify: [LIVE] ENTER | side=YES price=0.940 size=$1.68 (5.0%) conf=96.50% | Will Elon Musk post 40-64 tweets from April 13 to April 15, 2026?
+2026-04-15 11:25:39 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=41706226410300397742607656342074764124675033572256954279521198312528011862941 "HTTP/2 200 OK"
+2026-04-15 11:25:40 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=41706226410300397742607656342074764124675033572256954279521198312528011862941 "HTTP/2 200 OK"
+2026-04-15 11:25:40 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=41706226410300397742607656342074764124675033572256954279521198312528011862941 "HTTP/2 200 OK"
+2026-04-15 11:25:40 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 11:25:40 [INFO    ] trader: [Trader][LIVE] Order placed: 4170622641… price=0.9400 shares=1.7872 usdc=$1.68 | {'errorMsg': '', 'orderID': '0xeaa6933298c5c61b2c00f7308c9d3fd6dad4e3b7f27584a85f4097439c84b60c', 'takingAmount': '1.78', 'makingAmount': '1.6732', 'status': 'matched', 'transactionsHashes': ['0x0fa57193727aaa61759414ead28044431821b528534b1b2612993446fcfdfe90'], 'success': True}
+2026-04-15 11:25:40 [INFO    ] positions: [Positions] Recorded entry: Will Elon Musk post 40-64 tweets from April 13 to April 15,  [YES@0.940] $1.68
+2026-04-15 11:25:40 [INFO    ] main: [ScanTrade] Entered: Will Elon Musk post 40-64 tweets from April 13 to April 15,  [YES@0.915] $1.68 | 0.6h to close
+2026-04-15 11:25:40 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:25:40 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:25:40 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down on April 15?
+2026-04-15 11:25:40 [INFO    ] main: [ScanTrade] SKIP (live ask 0.971 hors bande) Bitcoin Up or Down - April 15, 11:15AM-11:30AM ET
+2026-04-15 11:25:40 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:26:44 [INFO    ] scanner: [Scanner] Scanned 49850 markets → 7 qualifying (90%–95%)
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (live ask 0.995 hors bande) Ethereum Up or Down - April 15, 11:15AM-11:30AM ET
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down on April 15?
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (live ask 0.996 hors bande) Bitcoin Up or Down - April 15, 11:15AM-11:30AM ET
+2026-04-15 11:26:44 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:29:47 [INFO    ] scanner: [Scanner] Scanned 49851 markets → 5 qualifying (90%–95%)
+2026-04-15 11:29:47 [INFO    ] main: [ScanTrade] SKIP (spread/book) Ethereum Up or Down - April 15, 11:15AM-11:30AM ET [NO@0.925]
+2026-04-15 11:29:47 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:29:47 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:29:47 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:29:47 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:30:54 [INFO    ] scanner: [Scanner] Scanned 49851 markets → 4 qualifying (90%–95%)
+2026-04-15 11:30:54 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:30:55 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:30:55 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:30:55 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:32:01 [INFO    ] scanner: [Scanner] Scanned 49851 markets → 4 qualifying (90%–95%)
+2026-04-15 11:32:01 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:32:02 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:32:02 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:32:02 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:35:07 [INFO    ] scanner: [Scanner] Scanned 49836 markets → 5 qualifying (90%–95%)
+2026-04-15 11:35:07 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:35:07 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:35:07 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:35:07 [INFO    ] main: [ScanTrade] SKIP (spread/book) XRP Up or Down - April 15, 11:30AM-11:35AM ET [NO@0.915]
+2026-04-15 11:35:07 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:36:23 [INFO    ] scanner: [Scanner] Scanned 49836 markets → 4 qualifying (90%–95%)
+2026-04-15 11:36:23 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:36:23 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:36:23 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:36:24 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:37:30 [INFO    ] scanner: [Scanner] Scanned 49836 markets → 4 qualifying (90%–95%)
+2026-04-15 11:37:30 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:37:31 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:37:31 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 65-89 tweets from April 13 to April 15, 
+2026-04-15 11:37:31 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:40:37 [INFO    ] scanner: [Scanner] Scanned 49830 markets → 6 qualifying (90%–95%)
+2026-04-15 11:40:37 [INFO    ] main: [ScanTrade] SKIP (live ask 0.978 hors bande) Ethereum Up or Down - April 15, 11:30AM-11:45AM ET
+2026-04-15 11:40:37 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Elon Musk post 40-64 tweets from April 13 to April 15, 
+2026-04-15 11:40:37 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:40:37 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Bitcoin Up or Down - April 15, 8:00AM-12:00PM ET
+2026-04-15 11:40:37 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.920 size=$1.60 (5.0%) conf=94.50% | Solana Up or Down - April 15, 11AM ET
+2026-04-15 11:40:38 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=14704355141325979300597623608952642845218281639596391954284321591672854945745 "HTTP/2 200 OK"
+2026-04-15 11:40:38 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=14704355141325979300597623608952642845218281639596391954284321591672854945745 "HTTP/2 200 OK"
+2026-04-15 11:40:38 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=14704355141325979300597623608952642845218281639596391954284321591672854945745 "HTTP/2 200 OK"
+2026-04-15 11:40:39 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 11:40:39 [INFO    ] trader: [Trader][LIVE] Order placed: 1470435514… price=0.9200 shares=1.7391 usdc=$1.60 | {'errorMsg': '', 'orderID': '0x013162acc45740c547ef3437373e714a5e80dc68bb4bea12daf2b6ea48697247', 'takingAmount': '1.73', 'makingAmount': '1.5916', 'status': 'matched', 'transactionsHashes': ['0x65a1a6cb9ea12c95a22603e2a096218abc95b963320b05b83066553bd3b862e4'], 'success': True}
+2026-04-15 11:40:39 [INFO    ] positions: [Positions] Recorded entry: Solana Up or Down - April 15, 11AM ET [NO@0.920] $1.60
+2026-04-15 11:40:39 [INFO    ] main: [ScanTrade] Entered: Solana Up or Down - April 15, 11AM ET [NO@0.925] $1.60 | 0.4h to close
+2026-04-15 11:40:39 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:41:48 [INFO    ] scanner: [Scanner] Scanned 49830 markets → 6 qualifying (90%–95%)
+2026-04-15 11:41:48 [INFO    ] main: [ScanTrade] SKIP (live ask 0.860 hors bande) Ethereum Up or Down - April 15, 11:30AM-11:45AM ET
+2026-04-15 11:41:48 [INFO    ] main: [ScanTrade] SKIP (live ask 0.760 hors bande) Ethereum Up or Down - April 15, 11AM ET
+2026-04-15 11:41:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:41:48 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Bitcoin Up or Down - April 15, 8:00AM-12:00PM ET
+2026-04-15 11:41:48 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Solana Up or Down - April 15, 11AM ET
+2026-04-15 11:41:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:43:08 [INFO    ] scanner: [Scanner] Scanned 49830 markets → 6 qualifying (90%–95%)
+2026-04-15 11:43:09 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.930 size=$1.52 (5.0%) conf=95.50% | Ethereum Up or Down - April 15, 11:30AM-11:45AM ET
+2026-04-15 11:43:09 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=52747300722686441341301503577492766496418662136503290050112456177140396598455 "HTTP/2 200 OK"
+2026-04-15 11:43:09 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=52747300722686441341301503577492766496418662136503290050112456177140396598455 "HTTP/2 200 OK"
+2026-04-15 11:43:09 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=52747300722686441341301503577492766496418662136503290050112456177140396598455 "HTTP/2 200 OK"
+2026-04-15 11:43:09 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 400 Bad Request"
+2026-04-15 11:43:09 [ERROR   ] trader: [Trader] Order failed for 5274730072…: PolyApiException[status_code=400, error_message={'error': 'order 0xf04941629ec888ac4f01041ecb3f5bbbae331efbf85ff024fa918997acbff06c is invalid. Size (1.63) lower than the minimum: 5'}]
+2026-04-15 11:43:09 [INFO    ] main: [ScanTrade] SKIP (live ask 0.760 hors bande) Ethereum Up or Down - April 15, 11AM ET
+2026-04-15 11:43:09 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Quadra Kill? [NO@0.925]
+2026-04-15 11:43:09 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.930 size=$1.52 (5.0%) conf=95.50% | Bitcoin Up or Down - April 15, 8:00AM-12:00PM ET
+2026-04-15 11:43:10 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=74356488483597185888163174494663573046911477445528562345452864974304656535004 "HTTP/2 200 OK"
+2026-04-15 11:43:10 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=74356488483597185888163174494663573046911477445528562345452864974304656535004 "HTTP/2 200 OK"
+2026-04-15 11:43:10 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=74356488483597185888163174494663573046911477445528562345452864974304656535004 "HTTP/2 200 OK"
+2026-04-15 11:43:10 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 11:43:10 [INFO    ] trader: [Trader][LIVE] Order placed: 7435648848… price=0.9300 shares=1.6344 usdc=$1.52 | {'errorMsg': '', 'orderID': '0xfe73f9ecbc145555f7b48abee48cc3c3d537a11a9bde513df7d8ef0036848b7c', 'takingAmount': '1.63', 'makingAmount': '1.5159', 'status': 'matched', 'transactionsHashes': ['0xb5ee32f26e46ab12f729576cf9ac07bfe63e516f1af6685f557cdbc88052a98b'], 'success': True}
+2026-04-15 11:43:10 [INFO    ] positions: [Positions] Recorded entry: Bitcoin Up or Down - April 15, 8:00AM-12:00PM ET [NO@0.930] $1.52
+2026-04-15 11:43:10 [INFO    ] main: [ScanTrade] Entered: Bitcoin Up or Down - April 15, 8:00AM-12:00PM ET [NO@0.935] $1.52 | 0.3h to close
+2026-04-15 11:43:10 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Solana Up or Down - April 15, 11AM ET
+2026-04-15 11:43:10 [INFO    ] main: [ScanTrade] SKIP (spread/book) Game 3: Any Player Penta Kill? [NO@0.950]
+2026-04-15 11:43:30 [ERROR   ] risk: [RISK] Drawdown 22.6% ≥ 20.0%. Pausing 4.0h.
+2026-04-15 11:43:50 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:44:10 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:44:30 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:44:50 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:45:10 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:45:30 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:45:50 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:46:10 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 11:46:30 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:46:50 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:47:10 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:47:30 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:47:50 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:48:10 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:48:30 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:48:50 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:49:10 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:49:30 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:49:50 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:50:10 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:50:30 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:50:50 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:51:10 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:51:30 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:51:50 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:52:10 [WARNING ] risk: [RISK] Paused – 3.9h remaining
+2026-04-15 11:52:30 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:52:50 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:53:10 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:53:30 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:53:50 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:54:10 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:54:30 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:54:50 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:55:10 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:55:30 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:55:50 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:56:10 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:56:30 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:56:50 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:57:10 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:57:30 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:57:50 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:58:10 [WARNING ] risk: [RISK] Paused – 3.8h remaining
+2026-04-15 11:58:30 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 11:58:50 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 11:59:10 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 11:59:30 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 11:59:50 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:00:10 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:00:30 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:00:50 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:01:10 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:01:30 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:01:50 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:02:10 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:02:30 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:02:50 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:03:10 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:03:30 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:03:50 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:04:10 [WARNING ] risk: [RISK] Paused – 3.7h remaining
+2026-04-15 12:04:30 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:04:50 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:05:10 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:05:30 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:05:50 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:06:11 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:06:31 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:06:51 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:07:11 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:07:31 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:07:51 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:08:11 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:08:31 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:08:51 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:09:11 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:09:31 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:09:51 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:10:11 [WARNING ] risk: [RISK] Paused – 3.6h remaining
+2026-04-15 12:10:31 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:10:51 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:11:11 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:11:12 [INFO    ] main: [Heartbeat] Bankroll=$28.85 | Open=8 | Trades=0 W=0 L=0 PnL=$+0.00 WR=0.0%
+2026-04-15 12:11:31 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:11:51 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:12:11 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:12:31 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:12:51 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:13:11 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:13:31 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:13:51 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:14:11 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:14:31 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:14:51 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:15:11 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:15:31 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:15:51 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:16:11 [WARNING ] risk: [RISK] Paused – 3.5h remaining
+2026-04-15 12:16:31 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:16:51 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:17:11 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:17:31 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:17:51 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:18:11 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:18:31 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:18:51 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:19:11 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:19:31 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:19:51 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:20:11 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:20:31 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:20:51 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:21:11 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:21:31 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:21:51 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:22:11 [WARNING ] risk: [RISK] Paused – 3.4h remaining
+2026-04-15 12:22:31 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:22:51 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:23:11 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:23:31 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:23:51 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:24:11 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:24:31 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:24:51 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:25:11 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:25:31 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:25:51 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:26:11 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:26:31 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:26:51 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:27:11 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:27:31 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:27:51 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:28:11 [WARNING ] risk: [RISK] Paused – 3.3h remaining
+2026-04-15 12:28:31 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:28:51 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:29:11 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:29:31 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:29:51 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:30:11 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:30:31 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:30:51 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:31:11 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:31:31 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:31:51 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:32:11 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:32:31 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:32:51 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:33:11 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:33:31 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:33:51 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:34:11 [WARNING ] risk: [RISK] Paused – 3.2h remaining
+2026-04-15 12:34:31 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:34:51 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:35:11 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:35:31 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:35:51 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:36:11 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:36:31 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:36:51 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:37:11 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:37:31 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:37:51 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:38:11 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:38:31 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:38:51 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:39:11 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:39:31 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:39:51 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:40:11 [WARNING ] risk: [RISK] Paused – 3.1h remaining
+2026-04-15 12:40:31 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:40:51 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:41:11 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:41:31 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:41:51 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:42:11 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:42:31 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:42:51 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:43:12 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:43:32 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:43:52 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:44:12 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:44:32 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:44:52 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:45:12 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:45:32 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:45:52 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:46:12 [WARNING ] risk: [RISK] Paused – 3.0h remaining
+2026-04-15 12:46:32 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:46:52 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:47:12 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:47:32 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:47:52 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:48:12 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:48:32 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:48:52 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:49:12 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:49:32 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:49:52 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:50:12 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:50:32 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:50:52 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:51:12 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:51:32 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:51:52 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:52:12 [WARNING ] risk: [RISK] Paused – 2.9h remaining
+2026-04-15 12:52:32 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:52:52 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:53:12 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:53:32 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:53:52 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:54:12 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:54:32 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:54:52 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:55:12 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:55:32 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:55:52 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:56:12 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:56:32 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:56:52 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:57:12 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:57:32 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:57:52 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:58:12 [WARNING ] risk: [RISK] Paused – 2.8h remaining
+2026-04-15 12:58:32 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 12:58:52 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 12:59:12 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 12:59:32 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 12:59:52 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:00:12 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:00:32 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:00:52 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:01:12 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:01:32 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:01:52 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:02:12 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:02:32 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:02:52 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:03:12 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:03:32 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:03:52 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:04:12 [WARNING ] risk: [RISK] Paused – 2.7h remaining
+2026-04-15 13:04:32 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:04:52 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:05:12 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:05:32 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:05:52 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:06:12 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:06:32 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:06:52 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:07:12 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:07:32 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:07:52 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:08:12 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:08:32 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:08:52 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:09:12 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:09:32 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:09:52 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:10:12 [WARNING ] risk: [RISK] Paused – 2.6h remaining
+2026-04-15 13:10:32 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:10:52 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:11:12 [INFO    ] main: [Heartbeat] Bankroll=$28.85 | Open=8 | Trades=0 W=0 L=0 PnL=$+0.00 WR=0.0%
+2026-04-15 13:11:12 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:11:32 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:11:52 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:12:12 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:12:32 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:12:52 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:13:12 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:13:32 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:13:52 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:14:12 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:14:32 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:14:52 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:15:12 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:15:32 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:15:52 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:16:12 [WARNING ] risk: [RISK] Paused – 2.5h remaining
+2026-04-15 13:16:32 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:16:52 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:17:12 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:17:32 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:17:52 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:18:12 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:18:32 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:18:52 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:19:12 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:19:32 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:19:52 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:20:12 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:20:32 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:20:52 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:21:12 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:21:32 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:21:52 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:22:12 [WARNING ] risk: [RISK] Paused – 2.4h remaining
+2026-04-15 13:22:33 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:22:53 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:23:13 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:23:33 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:23:53 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:24:13 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:24:33 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:24:53 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:25:13 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:25:33 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:25:53 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:26:13 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:26:33 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:26:53 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:27:13 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:27:33 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:27:53 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:28:13 [WARNING ] risk: [RISK] Paused – 2.3h remaining
+2026-04-15 13:28:33 [WARNING ] risk: [RISK] Paused – 2.2h remaining
+2026-04-15 13:28:53 [WARNING ] risk: [RISK] Paused – 2.2h remaining
+2026-04-15 13:28:56 [INFO    ] risk: [Bankroll] Loaded from file: $28.85
+2026-04-15 13:28:56 [INFO    ] main: [Main] Starting. Bankroll=$28.85 DRY_RUN=False
+2026-04-15 13:28:56 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 13:28:56 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-15 13:28:57 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 13:28:57 [ERROR   ] risk: [RISK] Drawdown 22.6% ≥ 20.0%. Pausing 4.0h.
+2026-04-15 13:28:57 [INFO    ] main: [Resolver] Started.
+2026-04-15 13:29:17 [WARNING ] risk: [RISK] Paused – 4.0h remaining
+2026-04-15 13:29:28 [INFO    ] risk: [Bankroll] Loaded from file: $34.85
+2026-04-15 13:29:28 [INFO    ] main: [Main] Starting. Bankroll=$34.85 DRY_RUN=False
+2026-04-15 13:29:28 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-15 13:29:28 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-15 13:29:29 [INFO    ] main: [ScanTrade] Started.
+2026-04-15 13:29:29 [INFO    ] main: [Resolver] Started.
+2026-04-15 13:30:32 [INFO    ] scanner: [Scanner] Scanned 49877 markets → 0 qualifying (90%–95%)
+2026-04-15 13:32:18 [INFO    ] scanner: [Scanner] Scanned 49877 markets → 1 qualifying (90%–95%)
+2026-04-15 13:32:18 [INFO    ] notify: [LIVE] ENTER | side=YES price=0.900 size=$1.74 (5.0%) conf=92.50% | Solana Up or Down - April 15, 1PM ET
+2026-04-15 13:32:18 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=5690049080919125617300511039934058239573087069418328200307326652963598317313 "HTTP/2 200 OK"
+2026-04-15 13:32:18 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=5690049080919125617300511039934058239573087069418328200307326652963598317313 "HTTP/2 200 OK"
+2026-04-15 13:32:19 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=5690049080919125617300511039934058239573087069418328200307326652963598317313 "HTTP/2 200 OK"
+2026-04-15 13:32:19 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 13:32:19 [INFO    ] trader: [Trader][LIVE] Order placed: 5690049080… price=0.9000 shares=1.9333 usdc=$1.74 | {'errorMsg': '', 'orderID': '0x24c800f46a8b2dd520b9c1b2fcbde55087fc64ad8ce8c20f0013dd04be66e3a3', 'takingAmount': '1.93', 'makingAmount': '1.737', 'status': 'matched', 'transactionsHashes': ['0xafca6bc43f6dcf910e19934589c7d163a9c74de0d96db10c620bfc96bf502c7b'], 'success': True}
+2026-04-15 13:32:19 [INFO    ] positions: [Positions] Recorded entry: Solana Up or Down - April 15, 1PM ET [YES@0.900] $1.74
+2026-04-15 13:32:19 [INFO    ] main: [ScanTrade] Entered: Solana Up or Down - April 15, 1PM ET [YES@0.915] $1.74 | 0.5h to close
+2026-04-15 13:34:19 [INFO    ] scanner: [Scanner] Scanned 49877 markets → 1 qualifying (90%–95%)
+2026-04-15 13:34:19 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Solana Up or Down - April 15, 1PM ET
+2026-04-15 13:35:40 [INFO    ] scanner: [Scanner] Scanned 49830 markets → 2 qualifying (90%–95%)
+2026-04-15 13:35:40 [INFO    ] main: [ScanTrade] SKIP (spread/book) Hyperliquid Up or Down - April 15, 1:30PM-1:35PM ET [YES@0.915]
+2026-04-15 13:35:40 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Solana Up or Down - April 15, 1PM ET
+2026-04-15 13:37:34 [INFO    ] scanner: [Scanner] Scanned 49830 markets → 0 qualifying (90%–95%)
+2026-04-15 13:39:30 [INFO    ] scanner: [Scanner] Scanned 49830 markets → 0 qualifying (90%–95%)
+2026-04-15 13:41:01 [INFO    ] scanner: [Scanner] Scanned 49820 markets → 0 qualifying (90%–95%)
+2026-04-15 13:42:48 [INFO    ] scanner: [Scanner] Scanned 49820 markets → 0 qualifying (90%–95%)
+2026-04-15 13:44:49 [INFO    ] scanner: [Scanner] Scanned 49820 markets → 1 qualifying (90%–95%)
+2026-04-15 13:44:50 [INFO    ] main: [ScanTrade] SKIP (spread/book) Bitcoin Up or Down - April 15, 1:40PM-1:45PM ET [NO@0.915]
+2026-04-15 13:46:05 [INFO    ] scanner: [Scanner] Scanned 49801 markets → 2 qualifying (90%–95%)
+2026-04-15 13:46:05 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.920 size=$1.66 (5.0%) conf=94.50% | Will Northampton Town FC win on 2026-04-15?
+2026-04-15 13:46:06 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=59832836496413768946095184648525662708995529257971203039358141168715966011400 "HTTP/2 200 OK"
+2026-04-15 13:46:06 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=59832836496413768946095184648525662708995529257971203039358141168715966011400 "HTTP/2 200 OK"
+2026-04-15 13:46:06 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=59832836496413768946095184648525662708995529257971203039358141168715966011400 "HTTP/2 200 OK"
+2026-04-15 13:46:06 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-15 13:46:06 [INFO    ] trader: [Trader][LIVE] Order placed: 5983283649… price=0.9200 shares=1.8043 usdc=$1.66 | {'errorMsg': '', 'orderID': '0x376c026301205e389fdd15f50798484a320218c43bb8ab818e5f58eb58a42c74', 'takingAmount': '1.8', 'makingAmount': '1.656', 'status': 'matched', 'transactionsHashes': ['0xc08bfe93929ef24f8c6edf335500f123c8c6c31983a531fae195859b6cbff885'], 'success': True}
+2026-04-15 13:46:06 [INFO    ] positions: [Positions] Recorded entry: Will Northampton Town FC win on 2026-04-15? [NO@0.920] $1.66
+2026-04-15 13:46:06 [INFO    ] main: [ScanTrade] Entered: Will Northampton Town FC win on 2026-04-15? [NO@0.915] $1.66 | 1.0h to close
+2026-04-15 13:46:06 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Northampton Town FC win on 2026-04-15?
+2026-04-15 13:47:53 [INFO    ] scanner: [Scanner] Scanned 49801 markets → 1 qualifying (90%–95%)
+2026-04-15 13:47:53 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Will Northampton Town FC win on 2026-04-15?
+2026-04-17 13:29:14 [INFO    ] risk: [Bankroll] Loaded from file: $31.45
+2026-04-17 13:29:14 [INFO    ] main: [Main] Starting. Bankroll=$31.45 DRY_RUN=False
+2026-04-17 13:29:14 [INFO    ] main: [Main] Certainty band: 90% – 95%
+2026-04-17 13:29:14 [INFO    ] main: [Main] Max positions: 20 | Scan interval: 20s
+2026-04-17 13:29:16 [INFO    ] main: [ScanTrade] Started.
+2026-04-17 13:29:16 [INFO    ] main: [Resolver] Started.
+2026-04-17 13:32:00 [INFO    ] scanner: [Scanner] Scanned 50182 markets → 3 qualifying (90%–95%)
+2026-04-17 13:32:00 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.930 size=$1.57 (5.0%) conf=95.50% | Spread: Amiens SC (-1.5)
+2026-04-17 13:32:01 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=87822904846041083303977133345587662951554926596415617299257141335354834380526 "HTTP/2 200 OK"
+2026-04-17 13:32:01 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=87822904846041083303977133345587662951554926596415617299257141335354834380526 "HTTP/2 200 OK"
+2026-04-17 13:32:01 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=87822904846041083303977133345587662951554926596415617299257141335354834380526 "HTTP/2 200 OK"
+2026-04-17 13:32:01 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-17 13:32:01 [INFO    ] trader: [Trader][LIVE] Order placed: 8782290484… price=0.9300 shares=1.6882 usdc=$1.57 | {'errorMsg': '', 'orderID': '0x2c2c98c83592012e5383403bd9c72540ca15324b30350636222989d4dbf38514', 'takingAmount': '1.68', 'makingAmount': '1.5624', 'status': 'matched', 'transactionsHashes': ['0x50638cec6ce858ca71ffe85ce9bc58e623abbfcf9a8bcc91d367a59993aae227'], 'success': True}
+2026-04-17 13:32:01 [INFO    ] positions: [Positions] Recorded entry: Spread: Amiens SC (-1.5) [NO@0.930] $1.57
+2026-04-17 13:32:01 [INFO    ] main: [ScanTrade] Entered: Spread: Amiens SC (-1.5) [NO@0.930] $1.57 | 29min to close
+2026-04-17 13:32:01 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Clermont Foot 63 (-1.5) [NO@0.945]
+2026-04-17 13:32:01 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.910 size=$1.57 (5.0%) conf=93.50% | Bitcoin Up or Down - April 17, 1PM ET
+2026-04-17 13:32:01 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=25736020069085229195115049232699343380663168766621416195735777911501463310437 "HTTP/2 200 OK"
+2026-04-17 13:32:02 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=25736020069085229195115049232699343380663168766621416195735777911501463310437 "HTTP/2 200 OK"
+2026-04-17 13:32:02 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=25736020069085229195115049232699343380663168766621416195735777911501463310437 "HTTP/2 200 OK"
+2026-04-17 13:32:02 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-17 13:32:02 [INFO    ] trader: [Trader][LIVE] Order placed: 2573602006… price=0.9100 shares=1.7253 usdc=$1.57 | {'errorMsg': '', 'orderID': '0xeafd0a5759b22e2c71023c37bca1fe41e0ddeeaaf68305a424fb71b1939e4a61', 'takingAmount': '1.72', 'makingAmount': '1.5652', 'status': 'matched', 'transactionsHashes': ['0xa2d2c2a81d51dc6a29fec44dc8b79b04b9da2de306ec4e2121836e44d05d9d0c'], 'success': True}
+2026-04-17 13:32:02 [INFO    ] positions: [Positions] Recorded entry: Bitcoin Up or Down - April 17, 1PM ET [NO@0.910] $1.57
+2026-04-17 13:32:02 [INFO    ] main: [ScanTrade] Entered: Bitcoin Up or Down - April 17, 1PM ET [NO@0.945] $1.57 | 29min to close
+2026-04-17 13:33:18 [INFO    ] scanner: [Scanner] Scanned 50182 markets → 8 qualifying (90%–95%)
+2026-04-17 13:33:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Pau FC (-2.5) [NO@0.935]
+2026-04-17 13:33:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:33:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:33:18 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.910 size=$1.42 (5.0%) conf=93.50% | Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:33:18 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=13563057870606436207046794578505688006947661749410140927555292070002994253100 "HTTP/2 200 OK"
+2026-04-17 13:33:18 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=13563057870606436207046794578505688006947661749410140927555292070002994253100 "HTTP/2 200 OK"
+2026-04-17 13:33:18 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=13563057870606436207046794578505688006947661749410140927555292070002994253100 "HTTP/2 200 OK"
+2026-04-17 13:33:19 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-17 13:33:19 [INFO    ] trader: [Trader][LIVE] Order placed: 1356305787… price=0.9100 shares=1.5604 usdc=$1.42 | {'errorMsg': '', 'orderID': '0x88079f869cad59beb7d7ef061ef79bb7d73627b30d59fed89f1e4f2a6591d102', 'takingAmount': '1.56', 'makingAmount': '1.4196', 'status': 'matched', 'transactionsHashes': ['0x5388193f8c2f29e9c971077dc761d7a61c9469b05a3770f0d25fa4f76e6014d3'], 'success': True}
+2026-04-17 13:33:19 [INFO    ] positions: [Positions] Recorded entry: Ethereum Up or Down - April 17, 1PM ET [NO@0.910] $1.42
+2026-04-17 13:33:19 [INFO    ] main: [ScanTrade] Entered: Ethereum Up or Down - April 17, 1PM ET [NO@0.950] $1.42 | 27min to close
+2026-04-17 13:33:19 [INFO    ] main: [ScanTrade] SKIP (spread/book) AS Nancy-Lorraine vs. FC Annecy: O/U 4.5 [NO@0.915]
+2026-04-17 13:33:19 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:33:19 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Clermont Foot 63 (-1.5) [NO@0.945]
+2026-04-17 13:33:19 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Bitcoin Up or Down - April 17, 1PM ET
+2026-04-17 13:34:21 [INFO    ] scanner: [Scanner] Scanned 50182 markets → 9 qualifying (90%–95%)
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Pau FC (-2.5) [NO@0.935]
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) AS Nancy-Lorraine vs. FC Annecy: O/U 4.5 [NO@0.915]
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Clermont Foot 63 (-1.5) [NO@0.945]
+2026-04-17 13:34:22 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Bitcoin Up or Down - April 17, 1PM ET
+2026-04-17 13:37:29 [INFO    ] scanner: [Scanner] Scanned 50159 markets → 7 qualifying (90%–95%)
+2026-04-17 13:37:29 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:37:29 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Pau FC (-2.5) [NO@0.935]
+2026-04-17 13:37:30 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:37:30 [INFO    ] notify: [LIVE] ENTER | side=NO price=0.940 size=$1.34 (5.0%) conf=96.50% | XRP Up or Down - April 17, 1PM ET
+2026-04-17 13:37:30 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/tick-size?token_id=54790385081725230857328292209533804211982757822529225224974175015068077236180 "HTTP/2 200 OK"
+2026-04-17 13:37:30 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/neg-risk?token_id=54790385081725230857328292209533804211982757822529225224974175015068077236180 "HTTP/2 200 OK"
+2026-04-17 13:37:30 [INFO    ] httpx: HTTP Request: GET https://clob.polymarket.com/fee-rate?token_id=54790385081725230857328292209533804211982757822529225224974175015068077236180 "HTTP/2 200 OK"
+2026-04-17 13:37:30 [INFO    ] httpx: HTTP Request: POST https://clob.polymarket.com/order "HTTP/2 200 OK"
+2026-04-17 13:37:30 [INFO    ] trader: [Trader][LIVE] Order placed: 5479038508… price=0.9400 shares=1.4255 usdc=$1.34 | {'errorMsg': '', 'orderID': '0x4878ab6870893a50f6805b4100773b42d71970af0322bd2f0c9561f2895639bd', 'takingAmount': '1.42', 'makingAmount': '1.3348', 'status': 'matched', 'transactionsHashes': ['0x0018d713e5bc9207a03066af79a17e8e980016d120ad2640d38d2ae1a1b37e0f'], 'success': True}
+2026-04-17 13:37:30 [INFO    ] positions: [Positions] Recorded entry: XRP Up or Down - April 17, 1PM ET [NO@0.940] $1.34
+2026-04-17 13:37:30 [INFO    ] main: [ScanTrade] Entered: XRP Up or Down - April 17, 1PM ET [NO@0.904] $1.34 | 25min to close
+2026-04-17 13:37:30 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:37:30 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:37:31 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:38:39 [INFO    ] scanner: [Scanner] Scanned 50159 markets → 7 qualifying (90%–95%)
+2026-04-17 13:38:39 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:38:39 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:38:39 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:38:39 [INFO    ] main: [ScanTrade] SKIP (déjà en position) XRP Up or Down - April 17, 1PM ET
+2026-04-17 13:38:39 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:38:39 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:38:40 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:39:43 [INFO    ] scanner: [Scanner] Scanned 50159 markets → 6 qualifying (90%–95%)
+2026-04-17 13:39:43 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:39:43 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:39:43 [INFO    ] main: [ScanTrade] SKIP (déjà en position) XRP Up or Down - April 17, 1PM ET
+2026-04-17 13:39:43 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:39:43 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:39:43 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:42:47 [INFO    ] scanner: [Scanner] Scanned 50174 markets → 7 qualifying (90%–95%)
+2026-04-17 13:42:47 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:42:47 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:42:47 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:42:47 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:42:47 [INFO    ] main: [ScanTrade] SKIP (déjà en position) XRP Up or Down - April 17, 1PM ET
+2026-04-17 13:42:47 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:42:48 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:43:57 [INFO    ] scanner: [Scanner] Scanned 50174 markets → 8 qualifying (90%–95%)
+2026-04-17 13:43:57 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:43:57 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) XRP Up or Down - April 17, 1PM ET
+2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
