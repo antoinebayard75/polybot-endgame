@@ -778,3 +778,76 @@
 2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) XRP Up or Down - April 17, 1PM ET
 2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
 2026-04-17 13:43:58 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:45:02 [INFO    ] scanner: [Scanner] Scanned 50174 markets → 8 qualifying (90%–95%)
+2026-04-17 13:45:02 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:45:02 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:45:03 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:45:03 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:45:03 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:45:03 [INFO    ] main: [ScanTrade] SKIP (déjà en position) XRP Up or Down - April 17, 1PM ET
+2026-04-17 13:45:03 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:45:03 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:48:04 [INFO    ] scanner: [Scanner] Scanned 50162 markets → 8 qualifying (90%–95%)
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (spread/book) NK Osijek vs. NK Varaždin: O/U 4.5 [NO@0.900]
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:48:05 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:49:17 [INFO    ] scanner: [Scanner] Scanned 50162 markets → 10 qualifying (90%–95%)
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:49:18 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:50:21 [INFO    ] scanner: [Scanner] Scanned 50162 markets → 11 qualifying (90%–95%)
+2026-04-17 13:50:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Pau FC (-2.5) [NO@0.935]
+2026-04-17 13:50:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:50:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:50:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:50:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:50:21 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:50:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:52:21 [INFO    ] scanner: [Scanner] Scanned 50162 markets → 10 qualifying (90%–95%)
+2026-04-17 13:52:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Pau FC (-2.5) [NO@0.935]
+2026-04-17 13:52:21 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:52:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:52:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:52:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:52:22 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:53:47 [INFO    ] scanner: [Scanner] Scanned 50135 markets → 11 qualifying (90%–95%)
+2026-04-17 13:53:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: Pau FC (-2.5) [NO@0.935]
+2026-04-17 13:53:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.920]
+2026-04-17 13:53:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.945]
+2026-04-17 13:53:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:53:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: AS Nancy-Lorraine (-2.5) [NO@0.940]
+2026-04-17 13:53:48 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:54:58 [INFO    ] scanner: [Scanner] Scanned 50135 markets → 7 qualifying (90%–95%)
+2026-04-17 13:54:58 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:54:58 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:54:58 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Varaždin (-1.5) [NO@0.905]
+2026-04-17 13:54:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:54:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Bitcoin Up or Down - April 17, 1PM ET
+2026-04-17 13:54:58 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:54:59 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:56:00 [INFO    ] scanner: [Scanner] Scanned 50135 markets → 7 qualifying (90%–95%)
+2026-04-17 13:56:00 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:56:00 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:56:01 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Varaždin (-1.5) [NO@0.905]
+2026-04-17 13:56:01 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:56:01 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Bitcoin Up or Down - April 17, 1PM ET
+2026-04-17 13:56:01 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:56:01 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:57:51 [INFO    ] scanner: [Scanner] Scanned 50135 markets → 8 qualifying (90%–95%)
+2026-04-17 13:57:51 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Osijek (-2.5) [NO@0.935]
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: NK Varaždin (-1.5) [NO@0.900]
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Spread: Amiens SC (-1.5)
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: FC Annecy (-2.5) [NO@0.950]
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (spread/book) Spread: En Avant Guingamp (-2.5) [NO@0.925]
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (déjà en position) Ethereum Up or Down - April 17, 1PM ET
+2026-04-17 13:57:52 [INFO    ] main: [ScanTrade] SKIP (live ask 0.960 hors bande) Spread: Grenoble Foot 38 (-1.5)
